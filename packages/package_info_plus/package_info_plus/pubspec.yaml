@@ -24,11 +24,36 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  package_info_plus_platform_interface: ^1.0.2
-  package_info_plus_linux: ^1.0.5
-  package_info_plus_macos: ^1.2.0
-  package_info_plus_windows: ^1.0.5
-  package_info_plus_web: ^1.0.5
+
+  package_info_plus_platform_interface:
+    git:
+      url: https://github.com/cjbeauchamp/plus_plugins.git
+      path: packages/package_info_plus/package_info_plus_platform_interface
+      ref: freeze
+
+  package_info_plus_linux:
+    git:
+      url: https://github.com/cjbeauchamp/plus_plugins.git
+      path: packages/package_info_plus/package_info_plus_linux
+      ref: freeze
+
+  package_info_plus_macos:
+    git:
+      url: https://github.com/cjbeauchamp/plus_plugins.git
+      path: packages/package_info_plus/package_info_plus_macos
+      ref: freeze
+
+  package_info_plus_windows:
+    git:
+      url: https://github.com/cjbeauchamp/plus_plugins.git
+      path: packages/package_info_plus/package_info_plus_windows
+      ref: freeze
+
+  package_info_plus_web:
+    git:
+      url: https://github.com/cjbeauchamp/plus_plugins.git
+      path: packages/package_info_plus/package_info_plus_web
+      ref: freeze
 
 dev_dependencies:
   flutter_test:
